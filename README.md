@@ -1,8 +1,8 @@
 # 🧠 MNIST Handwritten Digit Recognition
 A Deep Learning project built using CNN & Streamlit
-
 This project predicts handwritten digits (0–9) using a Convolutional Neural Network (CNN) trained on the MNIST dataset.
 Users can draw digits directly on a canvas or upload images to see instant predictions through a Streamlit web app.
+
 ---
 
 <img src=app/digit.png width=100% height=600>
