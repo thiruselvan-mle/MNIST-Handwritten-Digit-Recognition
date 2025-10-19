@@ -126,7 +126,7 @@ The CNN model is the default for deployment.
 ## 📊 Example Prediction Output
 🧠 Predicted Digit: 7
 ---
-<img src=app/demo. width=100% height=600>
+<img src=app/demo.png width=100% height=600>
 
 
 ## 📈 Notebooks Summary

@@ -29,21 +29,25 @@ st.set_page_config(page_title="MNIST Digit Recognition", layout="centered")
 st.markdown("""
 <style>
     .main-title {
-        font-size:36px;
-        text-align:center;
-        font-weight:bold;
-        color:#00BFFF;
+        font-size: 52px;          
+        text-align: center;
+        font-weight: 800;
+        color: #00BFFF;
+        margin-bottom: 0px;
+        letter-spacing: 1px;
     }
     .sub-text {
-        text-align:center;
-        font-size:18px;
-        color:gray;
+        font-size: 24px;         
+        text-align: center;
+        color: #A0A0A0;
+        margin-top: 8px;
+        font-weight: 400;
     }
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h3><p class='main-title'>MNIST Handwritten Digit Recognition</p></h3>", unsafe_allow_html=True)
-st.markdown("<h5><p class='sub-text'>Draw or upload a digit (0–9) below to see the model prediction.</p></h5>", unsafe_allow_html=True)
+st.markdown("<p class='main-title'>MNIST Handwritten Digit Recognition</p>", unsafe_allow_html=True)
+st.markdown("<p class='sub-text'>Draw or upload a digit (0–9) below to see the model prediction.</p>", unsafe_allow_html=True)
 
 
 # =========================
