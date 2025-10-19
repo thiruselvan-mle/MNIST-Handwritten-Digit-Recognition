@@ -108,7 +108,7 @@ Click “Predict” to see model output.
 ### 📤 Upload Digit Image
 
  - Upload any 28×28 grayscale image or larger.
- -  
+  
  - App preprocesses and predicts automatically.
 ---
 ## 🧠 Model Information
