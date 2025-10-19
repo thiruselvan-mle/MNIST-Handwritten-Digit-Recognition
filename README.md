@@ -1,7 +1,7 @@
 # 🧠 MNIST Handwritten Digit Recognition
-A Deep Learning project built using CNN & Streamlit
-This project predicts handwritten digits (0–9) using a Convolutional Neural Network (CNN) trained on the MNIST dataset.
-Users can draw digits directly on a canvas or upload images to see instant predictions through a Streamlit web app.
+ - A Deep Learning project built using CNN & Streamlit
+ - This project predicts handwritten digits (0–9) using a Convolutional Neural Network (CNN) trained on the MNIST dataset.
+ - Users can draw digits directly on a canvas or upload images to see instant predictions through a Streamlit web app.
 
 ---
 
@@ -46,7 +46,7 @@ MNIST-Handwritten-Digit-Recognition/
 ├── requirements.txt        # Required dependencies
 └── README.md               # Project documentation
 ```
-
+--- 
 ## 🧩 Dataset Information
 
 Source: Kaggle MNIST Dataset ( https://www.kaggle.com/datasets/oddrationale/mnist-in-csv )
@@ -65,7 +65,7 @@ label	1x1	 1x2	...	28x28
 5	     0	  0	    ...	  0
 0	     0	 255	...	  0
 ```
-
+---
 ## ⚙️ Installation & Setup
 
 1️⃣ Clone this Repository
@@ -97,7 +97,7 @@ label	1x1	 1x2	...	28x28
 
   Then open the local URL (e.g., http://localhost:8501) in your browser.
 ```
-
+---
 ## 🖼️ App Features
 ### 🖊️ Draw Digit
 
@@ -110,7 +110,7 @@ Click “Predict” to see model output.
  - Upload any 28×28 grayscale image or larger.
  -  
  - App preprocesses and predicts automatically.
-
+---
 ## 🧠 Model Information
 ```bash
 Model	|     Type	     |      File	     |  Accuracy
@@ -119,7 +119,7 @@ MLP	    |Machine Learning|	mlp_model.keras  | 	 ~97%
 
 The CNN model is the default for deployment.
 ```
-
+---
 ## 📊 Example Prediction Output
 🧠 Predicted Digit: 7
 
@@ -135,7 +135,7 @@ The CNN model is the default for deployment.
 04-model-training	 | Trained CNN & MLP models
 05-model-evaluation	 | Compared model performance and metrics
 ```
-
+---
 ## 🧾 Requirements
 
  - Python 3.9+
@@ -154,7 +154,7 @@ The CNN model is the default for deployment.
 
  - streamlit-drawable-canvas
 
-
+---
 ## 💡 Future Improvements
 
  - Add more complex CNN architectures (LeNet, ResNet)
@@ -164,7 +164,7 @@ The CNN model is the default for deployment.
  - Add data augmentation
 
  - Create REST API endpoint for model predictions
-
+---
 ## 👨‍💻 Author
 
  Thiruselvan MUthuraman
