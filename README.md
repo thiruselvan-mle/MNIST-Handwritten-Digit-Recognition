@@ -45,22 +45,19 @@ MNIST-Handwritten-Digit-Recognition/
 ├── app.py                  # Streamlit web application
 ├── requirements.txt        # Required dependencies
 └── README.md               # Project documentation
-
 ```
-
----
 
 ## 🧩 Dataset Information
 
-Source: Kaggle MNIST Dataset
+Source: Kaggle MNIST Dataset ( https://www.kaggle.com/datasets/oddrationale/mnist-in-csv )
 
 Description:
 
-Each image is 28×28 pixels
+ - Each image is 28×28 pixels
 
-Grayscale intensity (0–255)
+ - Grayscale intensity (0–255)
 
-label column represents the digit (0–9)
+ - label column represents the digit (0–9)
 
 Example:
 ```bash
@@ -101,7 +98,6 @@ label	1x1	1x2	...	28x28
 
   Then open the local URL (e.g., http://localhost:8501) in your browser.
 ```
---- 
 
 ## 🖼️ App Features
 ### 🖊️ Draw Digit
