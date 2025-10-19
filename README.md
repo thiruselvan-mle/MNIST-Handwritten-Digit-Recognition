@@ -101,9 +101,9 @@ label	1x1	 1x2	...	28x28
 ## 🖼️ App Features
 ### 🖊️ Draw Digit
 
-Use your mouse or touchscreen to draw digits (0–9).
+ - Use your mouse or touchscreen to draw digits (0–9).
 
-Click “Predict” to see model output.
+ - Click “Predict” to see model output.
 
 ### 📤 Upload Digit Image
 
@@ -114,7 +114,7 @@ Click “Predict” to see model output.
 ## 🧠 Model Information
 ```bash
 Model	|     Type	     |      File	     |  Accuracy
-CNN	    | Deep Learning	 |   cnn_model.keras |   ~99%
+CNN	    | Deep Learning	 |  cnn_model.keras  |   ~99%
 MLP	    |Machine Learning|	mlp_model.keras  | 	 ~97%
 
 The CNN model is the default for deployment.
@@ -128,7 +128,7 @@ The CNN model is the default for deployment.
 
 ## 📈 Notebooks Summary
 ```bash
-### Notebook	     |          Description
+    Notebook	     |          Description
 01-data-exploration	 | Loaded and explored the dataset structure
 02-data-cleaning	 | Handled missing data and normalization
 03-eda	Visualized   | digit patterns using Seaborn & Matplotlib
