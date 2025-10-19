@@ -61,16 +61,16 @@ Description:
 
 Example:
 ```bash
-label	1x1	1x2	...	28x28
-5	0	0	...	0
-0	0	255	...	0
+label	1x1	 1x2	...	28x28
+5	     0	  0	    ...	  0
+0	     0	 255	...	  0
 ```
 
 ## ⚙️ Installation & Setup
 
 1️⃣ Clone this Repository
 ```bash 
- git clone https://github.com/your-username/MNIST-Handwritten-Digit-Recognition.git
+ git clone https://github.com/thiruselvan-mle/MNIST-Handwritten-Digit-Recognition.git
  cd MNIST-Handwritten-Digit-Recognition
 ```
 
@@ -90,10 +90,9 @@ label	1x1	1x2	...	28x28
  Or manually:
 
  pip install streamlit tensorflow joblib opencv-python pillow streamlit-drawable-canvas numpy
-
-
- 🚀 Running the Application
-
+```
+## 🚀 Running the Application
+```bash
   streamlit run app.py
 
   Then open the local URL (e.g., http://localhost:8501) in your browser.
@@ -108,31 +107,35 @@ Click “Predict” to see model output.
 
 ### 📤 Upload Digit Image
 
-Upload any 28×28 grayscale image or larger.
+ - Upload any 28×28 grayscale image or larger.
+ -  
+ - App preprocesses and predicts automatically.
 
-App preprocesses and predicts automatically.
----
 ## 🧠 Model Information
-Model	Type	File	Accuracy
-CNN	Deep Learning	cnn_model.h5	~99%
-MLP	Machine Learning	mlp_model.joblib	~97%
+```bash
+Model	|     Type	     |      File	     |  Accuracy
+CNN	    | Deep Learning	 |   cnn_model.keras |   ~99%
+MLP	    |Machine Learning|	mlp_model.keras  | 	 ~97%
 
 The CNN model is the default for deployment.
----
+```
+
 ## 📊 Example Prediction Output
 🧠 Predicted Digit: 7
----
+
 <img src=app/demo.png width=100% height=600>
 
 
 ## 📈 Notebooks Summary
+```bash
 ### Notebook	     |          Description
 01-data-exploration	 | Loaded and explored the dataset structure
 02-data-cleaning	 | Handled missing data and normalization
 03-eda	Visualized   | digit patterns using Seaborn & Matplotlib
 04-model-training	 | Trained CNN & MLP models
 05-model-evaluation	 | Compared model performance and metrics
----
+```
+
 ## 🧾 Requirements
 
  - Python 3.9+
@@ -151,18 +154,20 @@ The CNN model is the default for deployment.
 
  - streamlit-drawable-canvas
 
+
 ## 💡 Future Improvements
 
-Add more complex CNN architectures (LeNet, ResNet)
+ - Add more complex CNN architectures (LeNet, ResNet)
 
-Deploy on cloud (Streamlit Cloud / Hugging Face)
+ - Deploy on cloud (Streamlit Cloud / Hugging Face)
 
-Add data augmentation
+ - Add data augmentation
 
-Create REST API endpoint for model predictions
----
+ - Create REST API endpoint for model predictions
+
 ## 👨‍💻 Author
 
-Thiruselvan MUthuraman
-🔗 MNIST Digit Recognition Project
-💬 “Turning data into intelligent applications!”
+ Thiruselvan MUthuraman
+
+  - 🔗 MNIST Digit Recognition Project
+  - 💬 “Turning data into intelligent applications!”
