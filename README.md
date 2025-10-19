@@ -93,9 +93,9 @@ label	1x1	 1x2	...	28x28
 ```
 ## 🚀 Running the Application
 ```bash
-  streamlit run app.py
+ streamlit run app.py
 
-  Then open the local URL (e.g., http://localhost:8501) in your browser.
+ Then open the local URL (e.g., http://localhost:8501) in your browser.
 ```
 ---
 ## 🖼️ App Features
