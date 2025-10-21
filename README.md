@@ -171,3 +171,8 @@ The CNN model is the default for deployment.
 
   - 🔗 MNIST Digit Recognition Project
   - 💬 “Turning data into intelligent applications!”
+
+---
+
+## 📜 License
+***This project is licensed under the MIT License***
